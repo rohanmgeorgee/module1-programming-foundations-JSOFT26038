@@ -8,6 +8,8 @@ int main()
     cout << (5 == 5) << endl; // 1
     cout << (5 != 5) << endl; // 0
     int x = 5;
-    cout << x++ << " " << x << endl; // 5 6
+    cout << x << " ";
+    x++;
+    cout << x << endl; // 5 6
     return 0;
 }
